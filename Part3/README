@@ -1,1 +1,37 @@
+Performance Testiing
 
+We've prepared two large test files for you to conduct some performance testing of your system.
+
+1. The first input file containing 10,000 encoded fictitious passport records scanned from MRTD, here: records_encoded.json Download records_encoded.json. 
+Each line of the input file contains both lines of a fictitious record corresponding to the OCR two lines in Figure 1, separated by a semicolon.  
+Your task is to measure the execution times to process the first 100 records, the first 1000 records, …, and the first n thousand records for n running
+from 1 to 10.
+
+2. The second input file contains 10,000 decoded records, here: records_decoded.json.  Download records_decoded.json.Each block contains the information 
+of the issuing country, last name, given name, passport number, country code, birth date, sex, expiration date, and personal number that are needed to
+generate the records to appear on the MRTD.
+
+These two files could serve as the input to your decode and encode functions to measure its performance with different input sizes.
+
+3. You will use the Python timing libraries described, for example, here, https://realpython.com/python-timer/ Links to an external site.to measure how
+long your program takes to run without test cases and with test cases.
+
+For each of the three scenarios described above, write a program to execute the program you developed in Part 2 to measure the execution times to process
+the first k records of the file for k=100 and k=1000 to 10000 step 1000. Write the execution times to a csv file with the following columns:
+1. Number of lines read from the beginning of the file,
+2. Execution time without tests
+3. Execution time with unit tests assertions in place
+
+You should use abbreviated column headings that are unambiguous and easy to understand. Hint: in what order will you do these runs? 
+1. Using Excel, Google Sheets, or otherwise, plot the data in the CSV file with the number of lines read from the beginning of the file on the X axis
+   and the remaining three columns as separate curves on the Y axis. Be sure to label  your axes and supply a legend for the curves.
+2. Paste your plot into a doc file. Write one or two paragraphs explaining your results. In particular, what is the effect of testing on execution time?
+ 
+
+What to deliver for Part 3:
+
+1. A pdf file report containing the plot of your results along with your 1-2 paragraphs of explanation. In addition, you need to provide two links to
+   your source code and raw data:
+  A) The url to the repo of your project, please specify which source file(s) you create to run your experiment and collect your measurements
+  B) Please attach the url to the Excel file with the measurements you generated, or, if you used some other tool to generate the plots, the csv file
+     and the Python,  R, or other scripts you used to generate the plot or a link to the Google sheets file you used to generate the plots. Note: if you send a link, please be sure that it is within the Stevens google drive.
