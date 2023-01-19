@@ -1,4 +1,4 @@
-# ssw567 final
+# SSW567 final project
 
 ## [Part0 Gantt Chart Link](https://docs.google.com/spreadsheets/d/1qTgN0CX67OWnQxWGBxndH0yWO1h_gmxcKIuvtkJLGdY/edit#gid=1688732048)
 
