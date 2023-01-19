@@ -1,1 +1,28 @@
 Unit Testing
+
+Please finish the following tasks for testing your system as units:
+
+1. (15') Implement the functions for the four requirement specifications. Note that some requirements rely on a hardware device or a database. You do not 
+   need to implement the hardware device itself or the database. You can just leave these functions blank (i.e. assuming these components are not available
+   yet.) You should have all the functions contained in MRTD.py.
+2. (15') Write test cases to test each function you implemented above. Note that since you do not have access to the actual hardware device or database
+   functions, you should use mock for hardware scanning or accessing a sql database. You should put all the test cases in MTTDtest.py. Please provide 
+   comments to each test case you create to explain what the test case is testing. Please report the coverage of your test cases. Note that you should 
+   try your best to increase the code coverage. For example, for each requirement, you should have multiple test cases to ensure condition coverage, 
+   branch coverage, and statement coverage. Output screenshot for coverage should indicate >80% coverage.
+3. (10') Use MutPy to perform mutation testing. See https://pypi.org/project/MutPy/ Links to an external site.. Please report:
+    1. How many mutants are generated based on your functions?
+    2. How many mutants are killed by your test cases; how many mutants survived your test cases? Discuss how you could improve your test cases based on
+       results from MutPy.
+    3. Bonus Point: Please create additional test cases to kill the mutants. And list the names of the additional test cases.
+    
+Note that you need to use the correct Python version to have this part working properly. We have tested this on Python 3.7.15. In case you have trouble installing and running the specific python version, here is a document with some detailed instructions for you to follow: Installing a specific version of python using anaconda.pdf Download Installing a specific version of python using anaconda.pdf 
+
+Deliverable: 
+
+1. Please share your code repository on GitHub with the TA and the instructor. Keep your repo private to the team. There should be at least two files 
+   in your repo, MRTD.py which contain the functions you implemented, and MRTDtest.py which contains the test cases you created. 
+2. Please submit a PDF report, with the URL to your code repository. Followed by bullet points that describe the functions you created, the test cases 
+   you created, the coverage report, the report from MutPy, and a discussion of potential improvements to the test cases based on the results from MutPy.
+3. If you implemented new test cases for bonus points, specify which ones are new test cases, and provide an updated coverage report with mutants. 
+   This will gain up to 10 bonus points for your final project.
