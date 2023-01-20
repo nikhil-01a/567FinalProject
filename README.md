@@ -1,4 +1,4 @@
-# SSW567 Final Project - Go to the project description folder to understand the project
+# SSW567 Final Project - Go to the "Project_Description" folder to understand the project
 
 # Part 0: Gant Chart- Putting the project together.
 # Part 1: Requirements Testing
