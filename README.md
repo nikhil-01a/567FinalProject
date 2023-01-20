@@ -1,7 +1,7 @@
 # SSW567 Final Project
 
-## [Part1](Part1.docx)
-
-## [Part2](PART2)
-
-## [Part3](PART3)
+Part 0: Gant Chart- Putting the project together.
+Part 1: Requirements Testing
+Part 2: Unit Testing
+Part 3: Performance Testing
+Part 4: Test Planning
